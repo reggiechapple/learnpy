@@ -25,4 +25,25 @@ A string must always be enclosed in quotation marks. You can use either double q
 "Hi there, I am a string"
 'Hello world'
 "123 Oak Tree Lane"
+"(267)555-1234"
+"18901-3384"
+```
+If a string contains an apostrophe (single quote), then the whole string should be enclosed in double quotation marks like this:
+```python
+"Mary's dog said Woof"
+```
+If you instead used single quote like this:
+```python
+'Mary's dog said Woof'
+```
+... the computer would see the first single quote as the start of the string, the second one (after Mary) as the end of the string, and it wouldn't know what to do with the rest of the stuff, and your app wouldn't run correctly.
+Similarly, if the string contains double-quotation marks, then the whole thing should be enclosed in single quotation marks to avoid confusion. For example:
+```python
+'The dog of Mary said "Woof".'
+```
+So the first single quotation mark starts the string, the second one ends it, and the double quotation marks cause no confusion because they're inside that string.
+We could enclose the whole thing in single quotation marks and then escape the apostrophe by preceding it with a backlash, like this:
+```python
+# 'Mary\'s dog said "Woof".'
+'Mary\'s dog said "Woof".'
 ```
