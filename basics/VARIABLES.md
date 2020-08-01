@@ -24,15 +24,24 @@ x = 10
 ## Manipulating Variables
 Much of programming revolves around storing values in variables and manipulating that information with operators.
 ```python
+# input
 # this variable contains an integer
 quantity = 10
 
+# input
 # this variable contains a float
 unit_price = 1.99
 
+# process
 # this variable contains the result of multiplying quantity times unit_price
 extended_price = quantity * unit_price
 
+# output
 # display results
 print(extended_price)
+```
+### Run app
+To view the results run the following command in your terminal
+```bash
+python my_app.py
 ```
