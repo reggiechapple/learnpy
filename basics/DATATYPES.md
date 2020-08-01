@@ -44,6 +44,16 @@ Similarly, if the string contains double-quotation marks, then the whole thing s
 So the first single quotation mark starts the string, the second one ends it, and the double quotation marks cause no confusion because they're inside that string.
 We could enclose the whole thing in single quotation marks and then escape the apostrophe by preceding it with a backlash, like this:
 ```python
-# 'Mary\'s dog said "Woof".'
 'Mary\'s dog said "Woof".'
+```
+Or, we could enclose the whole thing thing with double quotation marks, and escape the quotation marks embedded with the string, like this:
+```python
+"Mary's dog said \"Woof\"."
+```
+
+## True/False Booleans
+The third Python data type is called a *Boolean*, and it can be one of two values: either True or False.
+In Python code, people store True or False values in *variables* using the following format:
+```python
+x = True
 ```
